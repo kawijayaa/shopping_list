@@ -8,3 +8,4 @@ class Product(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
     price = models.IntegerField()
     description = models.TextField()
+    
